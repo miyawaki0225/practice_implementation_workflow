@@ -47,3 +47,9 @@ https://www.amazon.co.jp/%E5%BE%8C%E6%82%94%E3%81%97%E3%81%AA%E3%81%84%E3%81%9F%
 |Improve-No|機能改善|
 |Dev-No|開発|
 
+
+- 開発フロー
+1. developからbranchを作成
+2. 対象branchに対してcommitを行う
+3. pull request作成・チェックしてdevelopへmergeしてbranchを削除
+4. developからmainに適時リリース
