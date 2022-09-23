@@ -23,6 +23,8 @@ https://www.amazon.co.jp/%E5%BE%8C%E6%82%94%E3%81%97%E3%81%AA%E3%81%84%E3%81%9F%
 
 ## 開発環境
 - VSCODE
+- トップページ（Notionを開く）
+https://www.notion.so/a0763d8b1b074dd784105ec85aa158cf
 
 ## 画面構成
 - ログイン画面
