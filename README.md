@@ -55,3 +55,5 @@ https://www.notion.so/a0763d8b1b074dd784105ec85aa158cf
 2. 対象branchに対してcommitを行う
 3. pull request作成・チェックしてdevelopへmergeしてbranchを削除
 4. developからmainに適時リリース
+
+- git issue用テスト
