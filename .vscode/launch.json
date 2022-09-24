@@ -1,12 +1,13 @@
 {
     "configurations": [
+        
         {
             "type": "java",
-            "name": "Spring Boot-SpringbootsampleApplication<springbootsample>",
+            "name": "Spring Boot-Application<workflow>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.example.SpringbootsampleApplication",
-            "projectName": "springbootsample",
+            "mainClass": "com.example.Application",
+            "projectName": "Workflow",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
