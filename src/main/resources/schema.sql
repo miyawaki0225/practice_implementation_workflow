@@ -29,3 +29,9 @@ CREATE TABLE IF NOT EXISTS t_salary (
   , salary INT
   , PRIMARY KEY(user_id, year_month)
 );
+
+CREATE TABLE IF NOT EXISTS m_tweet (
+    user_id VARCHAR(50)
+  , tweet VARCHAR(500)
+  , PRIMARY KEY(user_id)
+);
