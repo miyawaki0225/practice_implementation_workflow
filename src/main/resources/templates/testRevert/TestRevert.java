@@ -7,4 +7,10 @@ public class TestRevert {
     public void two() {
         //test commit 02
     }
+    public void three() {
+        //test commit 03
+    }
+    public void four() {
+        //test commit 04
+    }
 }
