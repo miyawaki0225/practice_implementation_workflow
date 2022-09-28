@@ -14,6 +14,9 @@ public class TestRevert {
     public void four() {
         //test commit 04
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 78c8cbc (【test】テスト０１)
+=======
+>>>>>>> 429c89e (【Test】Test03)
 }
