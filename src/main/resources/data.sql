@@ -34,3 +34,10 @@ INSERT INTO t_salary (
 , ('user@co.jp', '2020/12', 290000)
 , ('user@co.jp', '2021/01', 300000)
 ;
+
+/* TWEETテーブル */
+INSERT INTO m_tweet (user_id, tweet) 
+VALUES 
+(1, 'つぶやき１'),
+(2, 'つぶやき２'),
+(3, 'つぶやき３');
