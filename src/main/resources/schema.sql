@@ -29,3 +29,10 @@ CREATE TABLE IF NOT EXISTS t_salary (
   , salary INT
   , PRIMARY KEY(user_id, year_month)
 );
+
+/* サンプルテーブル */
+DROP TABLE `sample`;
+CREATE TABLE IF NOT EXISTS `sample` (
+  `sample_id` VARCHAR(50) COMMENT 'サンプルID',
+  `sample_text` VARCHAR(50) COMMENT 'サンプルテキスト'
+);
