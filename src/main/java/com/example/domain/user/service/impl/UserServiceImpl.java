@@ -69,4 +69,11 @@ public class UserServiceImpl implements UserService {
     public MUser getLoginUser(String userId) {
         return mapper.findLoginUser(userId);
     }
+
+    /** ユーザー情報全件取得 */
+	@Override
+	public List<MUser> getAllUsers() {
+		// TODO 自動生成されたメソッド・スタブ
+		return mapper.findAllUsers();
+	}
 }

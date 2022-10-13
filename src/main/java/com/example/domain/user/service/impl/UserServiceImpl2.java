@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.domain.user.model.MUser;
 import com.example.domain.user.service.UserService;
+import com.example.repository.UserMapper;
 import com.example.repository.UserRepository;
 
 @Service
@@ -24,6 +25,9 @@ public class UserServiceImpl2 implements UserService {
     @Autowired
     private UserRepository repository;
 
+    @Autowired
+    private UserMapper mapper;
+    
     @Autowired
     private PasswordEncoder encoder;
 
@@ -94,5 +98,12 @@ public class UserServiceImpl2 implements UserService {
     public MUser getLoginUser(String userId) {
         return repository.findLoginUser(userId);
     }
+    
+    /** ユーザー情報全件取得 */
+	@Override
+	public List<MUser> getAllUsers() {
+		// TODO 自動生成されたメソッド・スタブ
+		return mapper.findAllUsers();
+	}
 
 }
