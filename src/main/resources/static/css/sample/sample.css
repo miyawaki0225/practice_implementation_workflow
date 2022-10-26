@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+}
+
+.space-around{
+    align-content: space-around;
+}
